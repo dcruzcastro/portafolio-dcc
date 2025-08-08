@@ -17,14 +17,14 @@ const proyectosData = {
       titulo: "HostalApp",
       descripcion:
         "Aplicación web para manejo de reservas de hospedaje, alimentación y turismo.",
-      imagen: "../imagenes/proyecto1.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto1.png`, 
       repo: "https://github.com/dcruzcastro/HostalApp",
     },
     {
       id: 2,
       titulo: "AppUniversidad",
       descripcion: "Aplicación en consola para administrar los cursos de una Universidad.",
-      imagen: "../imagenes/proyecto2.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto2.png`, 
       repo: "https://github.com/dcruzcastro/AppUniversidad",
     },
     {
@@ -32,21 +32,21 @@ const proyectosData = {
       titulo: "Centro Educativo",
       descripcion:
         "Proyecto de escritorio creado en Netbeans para manejo de cursos en un centro educativo.",
-      imagen: "../imagenes/proyecto3.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto3.png`, 
       repo: "https://github.com/dcruzcastro/CentroEducativo",
     },
     {
       id: 4,
       titulo: "MultaPro",
       descripcion: "Aplicación web para manejo de multas de tránsito.",
-      imagen: "../imagenes/proyecto4.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto4.png`,
       repo: "https://github.com/dcruzcastro/MultaPro",
     },
     {
       id: 5,
       titulo: "Farmacia",
       descripcion: "Aplicación web para manejo de ventas de medicamentos",
-      imagen: "../imagenes/proyecto5.png",
+      imagen:`${import.meta.env.BASE_URL}imagenes/proyecto5.png`, 
       repo: "https://github.com/dcruzcastro/FarmaciaCanaria",
     },
   ],
@@ -56,14 +56,14 @@ const proyectosData = {
       titulo: "HostalApp",
       descripcion:
         "Web application for managing lodging, food, and tourism reservations.",
-      imagen: "../imagenes/proyecto1.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto1.png`, 
       repo: "https://github.com/dcruzcastro/HostalApp",
     },
     {
       id: 2,
       titulo: "UniversityApp",
       descripcion: "Console application to manage university courses.",
-      imagen: "../imagenes/proyecto2.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto2.png`, 
       repo: "https://github.com/dcruzcastro/AppUniversidad",
     },
     {
@@ -71,21 +71,21 @@ const proyectosData = {
       titulo: "Educational Center",
       descripcion:
         "Desktop project created in Netbeans to manage courses at an educational center.",
-      imagen: "../imagenes/proyecto3.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto3.png`, 
       repo: "https://github.com/dcruzcastro/CentroEducativo",
     },
     {
       id: 4,
       titulo: "MultaPro",
       descripcion: "Web application for traffic fine management.",
-      imagen: "../imagenes/proyecto4.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto4.png`,
       repo: "https://github.com/dcruzcastro/MultaPro",
     },
     {
       id: 5,
       titulo: "Pharmacy",
       descripcion: "Web application for managing medication sales.",
-      imagen: "../imagenes/proyecto5.png",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto5.png`, 
       repo: "https://github.com/dcruzcastro/FarmaciaCanaria",
     },
   ],

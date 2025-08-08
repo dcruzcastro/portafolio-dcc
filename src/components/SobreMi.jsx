@@ -50,21 +50,20 @@ const SobreMi = ({ lang }) => {
     }
   };
 
-  // Textos por idioma
   const textos = {
     es: {
       nombre: "Daniel Cruz",
       descripcion:
         "Ingeniero en Software con enfoque en desarrollo full stack, capaz de implementar soluciones robustas utilizando tecnologías como Java, C#, C++, Node.js, HTML, React y SQL. Orientado a resultados, buenas prácticas de desarrollo y mejora continua.",
       cvTexto: "Descargar CV",
-      cvLink: "/documentos/CV Español.pdf",
+      cvLink: "documentos/CV Español.pdf",
     },
     en: {
       nombre: "Daniel Cruz",
       descripcion:
-        "Software Engineer with a focus on full-stackdevelopment, capable of implementing robustsolutions using technologies such as Java, C#,C++, Node.js, HTML, React, and SQL. Results-oriented, committed to best developmentpractices and continuous improvement.",
+        "Software Engineer with a focus on full-stack development, capable of implementing robust solutions using technologies such as Java, C#, C++, Node.js, HTML, React, and SQL. Results-oriented, committed to best development practices and continuous improvement.",
       cvTexto: "Download CV",
-      cvLink: "/documentos/CV Inglés.pdf",
+      cvLink: "documentos/CV Inglés.pdf",
     },
   };
 
@@ -82,13 +81,17 @@ const SobreMi = ({ lang }) => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <a href={t.cvLink} download className="btn-descargar">
+          <a
+            href={`${import.meta.env.BASE_URL}${t.cvLink}`}
+            download
+            className="btn-descargar"
+          >
             {t.cvTexto}
           </a>
 
           <lottie-player
             ref={lottieRefCV}
-            src="/animaciones/cv.json"
+            src={`${import.meta.env.BASE_URL}animaciones/cv.json`}
             background="transparent"
             speed="4"
             style={{ width: '110px', height: '100px' }}
@@ -105,7 +108,7 @@ const SobreMi = ({ lang }) => {
       >
         <lottie-player
           ref={lottieRefRocket}
-          src="/animaciones/rocket.json"
+          src={`${import.meta.env.BASE_URL}animaciones/rocket.json`}
           background="transparent"
           speed="1"
           style={{ width: '300px', height: '300px' }}

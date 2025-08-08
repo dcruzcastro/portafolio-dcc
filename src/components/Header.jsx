@@ -5,7 +5,7 @@ export default function Header({ lang, toggleLang }) {
   return (
     <header className="header">
       <a href="#inicio" className="logo">
-        <img src="/logo.png" alt="Logo" className="logo-img" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="logo-img" />
         <span className="logo-text">DCC</span>
       </a>
       <div className="header-container">
