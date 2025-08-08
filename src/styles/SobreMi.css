@@ -1,0 +1,99 @@
+.sobre-mi-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; /* No hacer wrap para mantener lado a lado */
+  gap: 4rem;
+  padding: 6rem 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  scroll-margin-top: 80px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform, box-shadow;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.sobre-mi-section:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.sobre-mi-section .contenido {
+  flex: 1 1 500px;
+  max-width: 650px;
+}
+
+.sobre-mi-section .titulo {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: var(--color-secondary);
+}
+
+.sobre-mi-section p {
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  line-height: 2;
+  color: var(--color-primary);
+}
+
+.sobre-mi-section .botones-cv {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.sobre-mi-section .btn-descargar {
+  font-size: 1.2rem;
+  padding: 0.9rem 1.8rem;
+}
+
+.sobre-mi-section .animacion {
+  flex: 1 1 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mi-section .animacion-rocket {
+  flex: 1 1 300px; /* Ajusta el ancho si quieres */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sobre-mi-section {
+    flex-direction: column;
+    flex-wrap: wrap; /* permite wrap en mobile */
+    padding: 3rem 1.5rem;
+    max-width: 100%;
+  }
+
+  .sobre-mi-section .contenido,
+  .sobre-mi-section .animacion,
+  .sobre-mi-section .animacion-rocket {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 2rem; /* espacio entre bloques */
+  }
+
+  .sobre-mi-section .titulo {
+    font-size: 2.8rem;
+  }
+
+  .sobre-mi-section p {
+    font-size: 1.2rem;
+  }
+
+  .sobre-mi-section .botones-cv {
+    justify-content: center;
+  }
+}
