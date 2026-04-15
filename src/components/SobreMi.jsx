@@ -57,14 +57,14 @@ const SobreMi = ({ lang }) => {
       descripcion:
         "Ingeniero en Software con enfoque en desarrollo full stack, capaz de implementar soluciones robustas utilizando tecnologías como Java, C#, C++, Node.js, HTML, React y SQL. Orientado a resultados, buenas prácticas de desarrollo y mejora continua.",
       cvTexto: "Descargar CV",
-      cvLink: "/documentos/CV Español.pdf",
+      cvLink: "/portafolio-dcc/documentos/CV Español.pdf",
     },
     en: {
       nombre: "Daniel Cruz",
       descripcion:
         "Software Engineer with a focus on full-stackdevelopment, capable of implementing robustsolutions using technologies such as Java, C#,C++, Node.js, HTML, React, and SQL. Results-oriented, committed to best developmentpractices and continuous improvement.",
       cvTexto: "Download CV",
-      cvLink: "/documentos/CV Inglés.pdf",
+      cvLink: "/portafolio-dcc/documentos/CV Inglés.pdf",
     },
   };
 

@@ -22,7 +22,7 @@ const Footer = ({ lang = "es" }) => {
   return (
     <footer className="footer">
       <a href="#inicio" className="footer-logo">
-        <img src="/logo.png" alt="Logo" className="footer-logo-img" />
+        <img src="/portafolio-dcc/logo.png" alt="Logo" className="footer-logo-img" />
         <span className="footer-logo-text">DCC</span>
       </a>
       <nav className="footer-nav">

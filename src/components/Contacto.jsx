@@ -98,7 +98,7 @@ const Contacto = ({ lang }) => {
 
       <div className="contacto-container">
         <img
-          src="../imagenes/contacto-banner.png"
+          src="/portafolio-dcc/imagenes/contacto-banner.png"
           alt={t.titulo}
           className="contacto-img"
         />
