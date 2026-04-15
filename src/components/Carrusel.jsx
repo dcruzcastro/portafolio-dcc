@@ -101,7 +101,7 @@ const proyectosData = {
       titulo: "MuseAI",
       descripcion:
         "Virtual museum featuring intelligent curation and an interactive creator module.",
-      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto6.png`, 
+      imagen: "../imagenes/proyecto6.png",
       repo: "https://github.com/dcruzcastro/MuseAI-DCC",
     }
   ],
