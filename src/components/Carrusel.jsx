@@ -49,6 +49,14 @@ const proyectosData = {
       imagen: "../imagenes/proyecto5.png",
       repo: "https://github.com/dcruzcastro/FarmaciaCanaria",
     },
+    {
+      id: 6,
+      titulo: "MuseAI",
+      descripcion:
+        "Museo virtual con curaduría inteligente y un módulo creador interactivo.",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto6.png`, 
+      repo: "https://github.com/dcruzcastro/MuseAI-DCC",
+    }
   ],
   en: [
     {
@@ -88,6 +96,14 @@ const proyectosData = {
       imagen: "../imagenes/proyecto5.png",
       repo: "https://github.com/dcruzcastro/FarmaciaCanaria",
     },
+    {
+      id: 6,
+      titulo: "MuseAI",
+      descripcion:
+        "Virtual museum featuring intelligent curation and an interactive creator module.",
+      imagen: `${import.meta.env.BASE_URL}imagenes/proyecto6.png`, 
+      repo: "https://github.com/dcruzcastro/MuseAI-DCC",
+    }
   ],
 };
 
