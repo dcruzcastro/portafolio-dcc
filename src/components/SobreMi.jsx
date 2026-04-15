@@ -88,7 +88,7 @@ const SobreMi = ({ lang }) => {
 
           <lottie-player
             ref={lottieRefCV}
-            src="/animaciones/cv.json"
+            src="/portafolio-dcc/animaciones/cv.json"
             background="transparent"
             speed="4"
             style={{ width: '110px', height: '100px' }}
@@ -105,7 +105,7 @@ const SobreMi = ({ lang }) => {
       >
         <lottie-player
           ref={lottieRefRocket}
-          src="/animaciones/rocket.json"
+          src="/portafolio-dcc/animaciones/rocket.json"
           background="transparent"
           speed="1"
           style={{ width: '300px', height: '300px' }}
